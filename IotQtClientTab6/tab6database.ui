@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Tab6Database</class>
+ <widget class="QWidget" name="Tab6Database">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>562</width>
+    <height>372</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <layout class="QVBoxLayout" name="verticalLayout">
+   <item>
+    <layout class="QHBoxLayout" name="horizontalLayout">
+     <item>
+      <widget class="QDateTimeEdit" name="pDateTimeEditFrom">
+       <property name="dateTime">
+        <datetime>
+         <hour>0</hour>
+         <minute>0</minute>
+         <second>0</second>
+         <year>2023</year>
+         <month>5</month>
+         <day>24</day>
+        </datetime>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QDateTimeEdit" name="pDateTimeEditTo">
+       <property name="dateTime">
+        <datetime>
+         <hour>18</hour>
+         <minute>0</minute>
+         <second>0</second>
+         <year>2023</year>
+         <month>5</month>
+         <day>24</day>
+        </datetime>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="pPBSearchButton">
+       <property name="text">
+        <string>조회</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="pPBDeleteButton">
+       <property name="text">
+        <string>삭제</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </item>
+   <item>
+    <layout class="QHBoxLayout" name="horizontalLayout_2">
+     <item>
+      <widget class="QTableWidget" name="pTableWidget">
+       <attribute name="horizontalHeaderDefaultSectionSize">
+        <number>170</number>
+       </attribute>
+       <column>
+        <property name="text">
+         <string>ID</string>
+        </property>
+       </column>
+       <column>
+        <property name="text">
+         <string>날짜</string>
+        </property>
+       </column>
+       <column>
+        <property name="text">
+         <string>조도</string>
+        </property>
+       </column>
+      </widget>
+     </item>
+    </layout>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
